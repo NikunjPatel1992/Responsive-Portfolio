@@ -58,18 +58,38 @@ li a{
 
 .mainbg{
     clear: both;
-    background-image: url(assets/image/concrete_seamless.png);
+    background-image: url(../image/concrete_seamless.png);
     height: 100%;
     width: 100%;
     border-top: #cccccc solid 2px;
 }
 
 .aboutcontainer{
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 5px;
+    padding-bottom: 20px;
     background: #FFFFFF;
 
 }
+.detail{
+    margin-left: 25px;
+}
+h2{
+    margin-left: 25px;
+    padding-top: 25px;
+    color: #4aaaa5;
+}
+hr {
+    margin-left: 25px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
 
 .footer {
     position: fixed;
