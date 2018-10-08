@@ -1,0 +1,149 @@
+.center{
+    margin: auto;
+    width: 80%;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;    
+    display: inline;
+}
+li a{    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#name{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4aaaa5;
+}
+#name1{
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    } 
+}
+
+.mainbg{
+    clear: both;
+    background-image: url(assets/image/concrete_seamless.png);
+    height: 100%;
+    width: 100%;
+    border-top: #cccccc solid 2px;
+}
+
+.aboutcontainer{
+    margin-left: 10px;
+    margin-top: 5px;
+    background: #FFFFFF;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+ }
+
+ 
+ /* contact css*/
+ label{
+    margin-left: 20px;
+}
+input[type=text], select, textarea {
+   width: 90%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   margin-left: 20px;
+   padding-right: 20px;
+   resize: vertical;
+}
+
+input[type=submit] {
+   background-color: #4aaaa5;
+   color: white;
+   margin-left: 20px;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.container{
+   border-radius: 5px;
+   background-color: #E0E0E0;
+   padding: 20px;
+   
+}
+
+
+/* Protfolio css*/
+
+.image{
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    
+    font-family: Arial;
+    
+}
+.imagetext{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+

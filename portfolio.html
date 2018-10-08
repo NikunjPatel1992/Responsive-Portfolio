@@ -1,0 +1,88 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Responsive Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="center">
+        <div class="topnav" id="myTopnav">
+        <section>
+            <ul>
+                <li id="name" ><h1><a id="name1" href="#home">Nikunj Patel</a></h1></li>
+
+                <li style="float: right"><a href="contact.html">Contact</a></li>
+                
+                <li style="float: right"><a href="protfolio.html">Protfolio</a></li>
+                
+                <li style="float: right"><a href="index.html">About </a></li>
+                
+            </ul>                
+        </section>
+        </div>
+    </div>
+
+    <div class="mainbg">
+        <div class="center">
+                <div class="aboutcontainer">
+                    <section>
+                            <h2>
+                                Portfolio
+                            </h2>
+                        </section>
+                        <hr/>
+                        <section class="image">
+                                <img src="assets/image/img_forest.jpg" alt="Nature" style="width: 300px; height: 200px;">
+                                <div class="imagetext">
+                                    <h4>Hangman</h4>
+                                </div>
+                                
+                            </section>
+                            <section class="image">
+                                <img src="assets/image/img_lights.jpg" alt="Nature" style="width: 300px; height: 200px;">
+                                <div class="imagetext">
+                                    <h4>RPG Game</h4>
+                                </div>
+                                
+                            </section>
+                        </section>
+                        <section class="image">
+                            <img src="assets/image/img_mountains.jpg" alt="Nature" style="width: 300px; height: 200px;">
+                            <div class="imagetext">
+                                <h4>Trivia Game</h4>
+                            </div>
+                            
+                        </section>
+                        <section class="image">
+                            <img src="assets/image/img_see.jpg" alt="Nature" style="width: 300px; height: 200px;">
+                            <div class="imagetext">
+                                <h4>Trivia Game</h4>
+                            </div>
+                            
+                        </section>   
+                </div>
+        </div>
+        <section>                        
+                <div class="footer">
+                    <p>Copyright @ </p>
+                </div>                        
+            </section>
+    </div>
+
+    <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>
+
+</body>
+</html>
